@@ -1,0 +1,14 @@
+http### Health Check
+GET http://localhost:8080/api/test/health
+
+
+
+### Get All Products
+GET http://localhost:8080/api/test/products
+
+### Create Test Product
+POST http://localhost:8080/api/test/products
+Content-Type: application/json
+
+### Actuator Health
+GET http://localhost:8080/actuator/health
